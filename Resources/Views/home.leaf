@@ -1,0 +1,10 @@
+#extend("base")
+
+#export("title") { home }
+
+#export("content") {
+<form action="mail" method="post">
+<textarea name="message">leave a message</textarea>
+<input type="submit" value="submit">
+</form>
+}

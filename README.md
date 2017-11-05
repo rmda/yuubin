@@ -18,3 +18,15 @@
         <img src="http://img.shields.io/badge/swift-4-brightgreen.svg" alt="Swift 4">
     </a>
 </p>
+<p>Sample secrets/server.json<p>
+    <pre>
+{
+    "mailgunUrlWithKey": "https://api:key-<...>@api.mailgun.net/v3/sandbox<...>.mailgun.org/messages",
+    "senderName": "MailgunSandbox",
+    "senderAddress": "postmaster@sandbox<...>.mailgun.org",
+    "recipientName": "<yourNameHere>",
+    "recipientAddress": "<yourEmailAddressHere>",
+    "subject": "NewMessage"
+}
+
+    </pre>
